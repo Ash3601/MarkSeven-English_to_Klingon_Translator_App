@@ -2,7 +2,7 @@ const translateBtn = document.querySelector("#translate-btn");
 const inputTxt = document.querySelector("#input__txt");
 const outputTxt = document.querySelector("#output__txt");
 
-const url = "https://api.funtranslations.com/translate/morse.json";
+const url = "https://api.funtranslations.com/translate/klingon.json";
 
 function translate(text) {
   return url + "?" + "text=" + text;
